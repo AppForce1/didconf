@@ -1,16 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A Dutch love letter to the diverse iOS Developer ecosystem. Organized from the Netherlands. Any positive replacement for the first D will do.">
+		<meta name="author" content="Jeroen Leenarts">
+		<meta property="og:title" content='didConf' />
+		<meta property="og:description" content='A love letter to the diverse iOS Developer ecosystem. Organized from the Netherlands. Any positive replacement for the first D will do.' />
+		<meta property="og:url" content="https://didconf.com"/>
+		<meta property="og:image" content='https://didconf.com/assets/summary_image.jpg' />
+		<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://diddconf.com/assets/summary_image.jpg">
+    <meta name="twitter:creator" content="@didconf">
 
-<html>
-<head>
-<title>A Dutch iOS developer conference by AppForce 1 - Jeroen Leenarts</title>
-</head>
-<body>
-<center>
-  <h1>Dutch iOS Developer Conference</h1>
-<p>More info soon.</p>
-<p>Dutch iOS Developer Conference says: "Hello world!"</p>
-<p>D could just as well stand for distributed, diverse, dazzling.</p>
-<p>Working title contains Dutch, cause it can.</p>
-<img src="https://appforce1.net/assets/logo.png" width=100%>
-</center>
-</body>
+		<title>
+			DID Conf: iOS Developer Conference
+		</title>
+        <?php include 'include/style.php' ?>
+        <?php include 'include/analytics.php' ?>
+	</head>
+	<body>
+        <?php include 'include/header.php' ?>
+		<div class="container">
+            <hr>
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+            <center>
+          <h1>Dutch, Diverse, Direct and Dedictatd</h1>
+
+          We are...
+            </center>
+        </p>
+      </div>
+      </div>
+			<hr>
+            <?php include 'include/footer.php' ?>
+		</div>
+	</body>
 </html>
