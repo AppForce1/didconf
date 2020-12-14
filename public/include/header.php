@@ -10,8 +10,7 @@
         	<label for="email">Stay informed on calls for speakers, proposals, announcements and other information from the organizer.<br/>AppForce1 - Jeroen Leenarts.</label>
           <br/><input type="email" name="email" id="email" class="email" placeholder="email address" required/>
           <div style="display:none;"><label for="hp">HP</label><input type="text" name="hp" id="hp"/></div>
-        	<input type="hidden" name="list" value="29hr4KDJw3K9kVvipL6i3w"/>
-          <input type="hidden" name="source" value="didconf"/>
+        	<input type="hidden" name="list" value="4iTAxCmS1g6OqwfLEbZS1g"/>
         	<input type="hidden" name="subform" value="yes"/>
           <input type="submit" value="Subscribe" name="submit" id="submit"  class="button"/>
           </span>
