@@ -1,0 +1,25 @@
+name: Deploy Master
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deploy to server
+      id: deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'public/'
+        dest: 'leenartsnet@noisy-queen.leenartsnet.webinf.buildingtogether.io:/srv/home/leenartsnet/domains/didconf.com/htdocs/www'
+
+    - name: Display status from deploy
+      run: echo "${{ steps.deploy.outputs.status }}"
