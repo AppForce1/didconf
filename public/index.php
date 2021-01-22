@@ -26,9 +26,9 @@
 				<div class="col-md-12">
 					<p>
             <center>
-          <h1>Dutch, Diverse, Direct and Dedictatd</h1>
+          <h1>Diversity is something we need.</h1>
 
-          We are...
+           With this conference I am trying to bring together people with experience in iOS development and those aspiring to become experienced iOS developers. I don't care who you are, what your skill level is. I want you to join me for a day of teaching, learning and sharing. Sign up for my newsletter. I will keep you updated on my <a href="https://twitter.com/AppForce1">twitter @AppForce1</a> as well.
             </center>
         </p>
       </div>
