@@ -9,7 +9,7 @@
 						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 						</script>
 						<p class="footertext">
-							© 2020 · AppForce1 - Jeroen Leenarts · <a href="/AV.pdf">Algemene voorwaarden</a>
+							© 2021 · AppForce1 - Jeroen Leenarts · <a href="/AV.pdf">Algemene voorwaarden</a>
 						</p>
 						<p class="footertext">
 							Chamber of Commerce registration ID (KvK) 66693950
