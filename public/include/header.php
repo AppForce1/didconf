@@ -6,7 +6,7 @@
 		</div>
     <div class="container">
       <div id="newsletter_signup">
-        <form action="https://appforce1.news/subscribe" method="POST" accept-charset="utf-8">
+        <form action="https://sendy.appforce1.net/subscribe" method="POST" accept-charset="utf-8">
         	<label for="email">Stay informed on calls for speakers, proposals, announcements and other information from the organizer.<br/>AppForce1 - Jeroen Leenarts.</label>
           <br/><input type="email" name="email" id="email" class="email" placeholder="email address" required/>
           <div style="display:none;"><label for="hp">HP</label><input type="text" name="hp" id="hp"/></div>
